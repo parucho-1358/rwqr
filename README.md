@@ -11,42 +11,65 @@
 
 ## 2. 👥 팀원 소개 (Team 1)
 
-| 이름 (Name) | 담당 업무 (Responsibility) |
-|:---:|:---|
-| <a href="mailto:hhc8185@gmail.com"><img src="https://github.com/깃허브아이디.png" width="100px" alt="한해찬"/><br /><sub><b>한해찬 (팀장)</b></sub></a> | • 프로젝트 총괄 및 통합, 코드 리팩토링<br>• AI(Ollama) 이용 Todo 자동화(CRUD)<br>• 메인 화면 반응형 웹 구현, 파일 업로드(CD) |
-| <a href="mailto:kjinsoo12@gmail.com"><img src="https://github.com/깃허브아이디.png" width="100px" alt="강진수"/><br /><sub><b>강진수</b></sub></a> | • Layout 구현, 알림 기능<br>• 비품 페이지/승인 처리, 장바구니<br>• 얼굴 인식(Face-api.js) 로그인 구현 |
-| <a href="https://github.com/gsmjy5758"><img src="https://github.com/gsmjy5758.png" width="100px" alt="문주연"/><br /><sub><b>문주연</b></sub></a> | • 업무 보드, 개인/그룹 채팅 구현<br>• 채팅 파일 업/다운로드, 채팅 AI 챗봇<br>• 전체 DB 설계 및 일정 관리 |
-| <a href="https://github.com/parucho-1358"><img src="https://github.com/parucho-1358.png" width="100px" alt="성건우"/><br /><sub><b>성건우</b></sub></a> | • 로그인 (Security + JWT)<br>• 사원 페이지 및 출결 기능, 사원 관련 AI 챗봇<br>• 회의록 및 진행 일지 작성 |
-| <a href="https://github.com/ujyj0414-dotcom"><img src="https://github.com/ujyj0414-dotcom.png" width="100px" alt="전유진"/><br /><sub><b>전유진</b></sub></a> | • 영수증 OCR 기능 구현<br>• 결재 관리 및 회계 통계<br>• 플로우 차트 통합 제작 |
+| <a href="http://github.com/haechan419"><img src="https://github.com/haechan419.png" width="100px" alt="한해찬"/><br /><sub><b>한해찬 (팀장)</b></sub></a> | <a href="https://github.com/shanekang1"><img src="https://github.com/shanekang1.png" width="100px" alt="강진수"/><br /><sub><b>강진수</b></sub></a> | <a href="https://github.com/Moonjooyeon"><img src="https://github.com/Moonjooyeon.png" width="100px" alt="문주연"/><br /><sub><b>문주연</b></sub></a> | <a href="https://github.com/parucho-1358"><img src="https://github.com/parucho-1358.png" width="100px" alt="성건우"/><br /><sub><b>성건우</b></sub></a> | <a href="https://github.com/ujyj0414-dotcom"><img src="https://github.com/ujyj0414-dotcom.png" width="100px" alt="전유진"/><br /><sub><b>전유진</b></sub></a> |
+| :---: | :---: | :---: | :---: | :---: |
 
+
+<br>
+
+### 📝 역할 분담 (R&R)
+
+* **한해찬 (팀장)**
+    * 프로젝트 총괄 및 통합, 코드 리팩토링
+    * AI(Ollama)를 이용한 Todo 자동화(CRUD) 구현
+    * 메인 화면 반응형 웹 구현 및 파일 업로드 처리
+
+* **강진수**
+    * 전체 Layout 구현 및 알림 기능 개발
+    * 비품 페이지 및 승인/신청 기능 구현(CRUD) , 장바구니 기능(CRUD)
+    * face-api.js를 활용한 얼굴 인식 로그인 구현
+
+* **문주연**
+    * 업무 보드 및 실시간 채팅(개인/그룹) 구현
+    * 채팅 내 파일 업로드/다운로드 및 채팅 AI 챗봇 연동
+    * 전체 DB 설계 및 프로젝트 일정 관리
+
+* **성건우**
+    * Spring Security + JWT 기반 로그인/인증 구현
+    * 사원 관리 페이지 및 마이페이지, 근태(출결) 관리 기능
+    * 사원 관련 AI 챗봇 구현, 회의록 및 진행 일지 작성
+
+* **전유진**
+    * 영수증 OCR 기능 구현 (이미지 텍스트 추출)
+    * 지출 결재 관리 시스템 및 회계 통계 시각화
+    * 전체 프로젝트 플로우 차트 통합 제작
+
+      
 ## 3. 🛠️ 기술 스택 (Tech Stack)
 
-### **Back-End**
-
+### **Back-End** &nbsp; <img src="https://img.shields.io/badge/-ED8B00?style=flat-square&logo=openjdk&logoColor=white"> <img src="https://img.shields.io/badge/-6DB33F?style=flat-square&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/-009688?style=flat-square&logo=fastapi&logoColor=white">
 - **Language**: Java, Python
 - **Framework**: Spring Boot, FastAPI
 - **Security**: Spring Security, JWT
 - **Data/Network**: Spring Data JPA, Spring WebSocket (STOMP/SockJS), Spring Data Redis
 - **Library**: Apache POI, OpenPDF, Thumbnailator, ModelMapper, Jackson Databind, Gson, OkHttp
 
-### **Front-End**
-
+### **Front-End** &nbsp; <img src="https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/-20232A?style=flat-square&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/-339933?style=flat-square&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/-764ABC?style=flat-square&logo=redux&logoColor=white">
 - **Language**: HTML5, CSS3, JavaScript
 - **Framework/Library**: React, Redux Toolkit, Node.js
 - **Network**: Axios, WebSocket (STOMP/SockJS)
 - **UI/UX**: Chart.js, React Calendar, face-api.js
 
-### **Data & AI**
-
+### **Data & AI** &nbsp; <img src="https://img.shields.io/badge/-003545?style=flat-square&logo=mariadb&logoColor=white"> <img src="https://img.shields.io/badge/-DC382D?style=flat-square&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/-000000?style=flat-square&logo=ollama&logoColor=white"> <img src="https://img.shields.io/badge/-412991?style=flat-square&logo=openai&logoColor=white">
 - **DataBase**: MariaDB, Redis
 - **AI/LLM**: OpenAI API, LangChain, Ollama
 - **Data Analysis**: Pandas, NumPy, Matplotlib, OpenCV, PyMySQL
 
-### **Tools & Infrastructure**
-
+### **Tools** &nbsp; <img src="https://img.shields.io/badge/-F05032?style=flat-square&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/-F24E1E?style=flat-square&logo=figma&logoColor=white">
 - **IDE**: IntelliJ, Cursor, VSCode, WebStorm
 - **Collaboration**: Git, GitHub, Figma, Postman, Swagger
 - **Database Tools**: MySQL Workbench
+
 
 ## 4. 🗂️ ERD (Entity Relationship Diagram)
 
@@ -58,8 +81,7 @@
 > 사용자와 관리자의 주요 행동 흐름을 정의한 유스케이스 다이어그램입니다.
 > ![KakaoTalk_20260113_150056077](https://github.com/user-attachments/assets/2c897d6e-8b7e-430f-be97-b8a31b27f617)
 
-![유스케이스 다이어그램](https://via.placeholder.com/800x400?text=Usecase+Diagram+Here)
-[cite_start]_(PDF 6페이지의 유스케이스 이미지를 캡처하여 여기에 경로를 넣어주세요)_ [cite: 42]
+
 
 ## 6. 🏛️ 시스템 아키텍처 (System Architecture)
 
