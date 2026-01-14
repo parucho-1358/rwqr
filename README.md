@@ -65,11 +65,7 @@
 
 > **AI 기반 업무 처리 및 실시간 통신 흐름**
 
-- **Core Flow**: Client(React) ↔ Spring Boot(Main Server) ↔ FastAPI(AI Server)
-- [cite_start]**Real-time**: WebSocket(STOMP)를 이용한 실시간 채팅 및 알림 처리 [cite: 26, 28]
-- **AI Processing**:
-  - [cite_start]회의록 분석 및 Todo 생성: Spring Boot ↔ Ollama [cite: 34, 158]
-  - [cite_start]영수증 OCR 및 결재 추천: Spring Boot ↔ FastAPI ↔ OpenAI Vision/GPT-4 [cite: 353, 433]
+
 
 ## 7. 📺 기능 소개 및 시연
 
