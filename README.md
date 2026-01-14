@@ -11,14 +11,13 @@
 
 ## 2. 👥 팀원 소개 (Team 1)
 
-|       이름        | 담당 업무 (Responsibility)                                                                                                   |                    GitHub                     |
-| :---------------: | :--------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------: |
-| **한해찬** (팀장) | • 프로젝트 총괄 및 통합, 코드 리팩토링<br>• AI(Ollama) 이용 Todo 자동화(CRUD)<br>• 메인 화면 반응형 웹 구현, 파일 업로드(CD) |               hhc8185@gmail.com               |
-|    **강진수**     | • Layout 구현, 알림 기능<br>• 비품 페이지/승인 처리, 장바구니<br>• 얼굴 인식(Face-api.js) 로그인 구현                        |             'kjinsoo12@gmail.com'             |
-|    **문주연**     | • 업무 보드, 개인/그룹 채팅 구현<br>• 채팅 파일 업/다운로드, 채팅 AI 챗봇<br>• 전체 DB 설계 및 일정 관리                     |              gsmjy5758@naver.com              |
-|    **성건우**     | • 로그인 (Security + JWT)<br>• 사원 페이지 및 출결 기능, 사원 관련 AI 챗봇<br>• 회의록 및 진행 일지 작성                     |                       (                       |
-|    **전유진**     | • 영수증 OCR 기능 구현<br>• 결재 관리 및 회계 통계<br>• 플로우 차트 통합 제작                                                | <a href="https://github.com/ujyj0414-dotcom"><img src="https://github.com/ujyj0414-dotcom.png?size=50" alt="전유진 프로필 사진"/><br /> <sub><b>전유진 (팀원)</b></sub></a>|
-
+| 이름 (Name) | 담당 업무 (Responsibility) |
+|:---:|:---|
+| <a href="mailto:hhc8185@gmail.com"><img src="https://github.com/깃허브아이디.png" width="100px" alt="한해찬"/><br /><sub><b>한해찬 (팀장)</b></sub></a> | • 프로젝트 총괄 및 통합, 코드 리팩토링<br>• AI(Ollama) 이용 Todo 자동화(CRUD)<br>• 메인 화면 반응형 웹 구현, 파일 업로드(CD) |
+| <a href="mailto:kjinsoo12@gmail.com"><img src="https://github.com/깃허브아이디.png" width="100px" alt="강진수"/><br /><sub><b>강진수</b></sub></a> | • Layout 구현, 알림 기능<br>• 비품 페이지/승인 처리, 장바구니<br>• 얼굴 인식(Face-api.js) 로그인 구현 |
+| <a href="https://github.com/gsmjy5758"><img src="https://github.com/gsmjy5758.png" width="100px" alt="문주연"/><br /><sub><b>문주연</b></sub></a> | • 업무 보드, 개인/그룹 채팅 구현<br>• 채팅 파일 업/다운로드, 채팅 AI 챗봇<br>• 전체 DB 설계 및 일정 관리 |
+| <a href="https://github.com/parucho1358"><img src="https://github.com/parucho1358.png" width="100px" alt="성건우"/><br /><sub><b>성건우</b></sub></a> | • 로그인 (Security + JWT)<br>• 사원 페이지 및 출결 기능, 사원 관련 AI 챗봇<br>• 회의록 및 진행 일지 작성 |
+| <a href="https://github.com/ujyj0414-dotcom"><img src="https://github.com/ujyj0414-dotcom.png" width="100px" alt="전유진"/><br /><sub><b>전유진</b></sub></a> | • 영수증 OCR 기능 구현<br>• 결재 관리 및 회계 통계<br>• 플로우 차트 통합 제작 |
 
 ## 3. 🛠️ 기술 스택 (Tech Stack)
 
