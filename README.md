@@ -60,7 +60,7 @@
 - **Network**: Axios, WebSocket (STOMP/SockJS)
 - **UI/UX**: Chart.js, React Calendar, face-api.js
 
-### **Data & AI** &nbsp; <img src="https://img.shields.io/badge/-003545?style=flat-square&logo=mariadb&logoColor=white"> <img src="https://img.shields.io/badge/-DC382D?style=flat-square&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/-000000?style=flat-square&logo=ollama&logoColor=white"> <img src="https://img.shields.io/badge/-412991?style=flat-square&logo=openai&logoColor=white">
+### **Data & AI** &nbsp; <img src="https://img.shields.io/badge/-003545?style=flat-square&logo=mariadb&logoColor=white"> <img src="https://img.shields.io/badge/-DC382D?style=flat-square&logo=redis&logoColor=white"> <img src="https://img.shields.io/badge/-000000?style=flat-square&logo=ollama&logoColor=white">
 - **DataBase**: MariaDB, Redis
 - **AI/LLM**: OpenAI API, LangChain, Ollama
 - **Data Analysis**: Pandas, NumPy, Matplotlib, OpenCV, PyMySQL
