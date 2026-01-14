@@ -131,6 +131,9 @@
 
 - WebSocket(STOMP) 기반의 개인/부서별 실시간 채팅을 지원합니다.
 - **AI 전역 검색**: 채팅방의 대화 맥락을 AI가 파악하여, 과거 대화 내용이나 공유된 파일을 자연어 질문으로 찾을 수 있습니다.
+- ![채팅](https://github.com/user-attachments/assets/deab6992-d87d-4ee8-a39d-30393224c054)
+![AI 전역 검색](https://github.com/user-attachments/assets/1ebac6bc-f414-4ed2-832b-f156f2cd2898)
+
 
 ### 5️⃣ 기타 편의 기능
 
