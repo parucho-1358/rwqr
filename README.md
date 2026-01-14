@@ -104,6 +104,8 @@
 
 - 회의록 파일을 업로드하면 AI가 내용을 분석하여 중요 과제를 추출합니다.
 - 추출된 과제는 Todo List와 캘린더에 자동으로 등록됩니다.
+- ![KakaoTalk_20260114_171048233](https://github.com/user-attachments/assets/46dbfdfb-570e-49fa-a0da-fd7615be1220)
+
 
 ### 2️⃣ 영수증 OCR 및 경비 처리
 
