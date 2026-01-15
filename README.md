@@ -74,12 +74,12 @@
 ## 4. 🗂️ ERD (Entity Relationship Diagram)
 
 > 프로젝트 데이터베이스 설계도입니다.
-> <img width="3181" height="2728" alt="KakaoTalk_20260114_113027856" src="https://github.com/user-attachments/assets/908ec8cc-2a42-482d-aba8-210656ac0541" />
+> <img width="3046" height="2493" alt="ERD 수정" src="https://github.com/user-attachments/assets/e818ab4c-4de2-41a6-b108-4179375ca636" />
 
 ## 5. 🏗️ 프로젝트 구조 (Use Case Diagram)
 
 > 사용자와 관리자의 주요 행동 흐름을 정의한 유스케이스 다이어그램입니다.
-> ![KakaoTalk_20260113_150056077](https://github.com/user-attachments/assets/2c897d6e-8b7e-430f-be97-b8a31b27f617)
+> ![유스케이스_수정](https://github.com/user-attachments/assets/bfee7085-4ac6-4bdd-9930-bb668ff3fe03)
 
 
 
@@ -96,58 +96,71 @@
 
 
 
-## 8. ✨ 핵심 구현 기능 (Implemented Features)
-
-### 1️⃣ AI 회의록 분석 및 Todo 자동 생성
-
-- 회의록 파일을 업로드하면 AI가 내용을 분석하여 중요 과제를 추출합니다.
-- 추출된 과제는 Todo List와 캘린더에 자동으로 등록됩니다.
-- ![KakaoTalk_20260114_171048233](https://github.com/user-attachments/assets/46dbfdfb-570e-49fa-a0da-fd7615be1220)
-
-
-### 2️⃣ 영수증 OCR 및 경비 처리
-
-**OpenAI GPT-4o-mini Vision API 기반 자동화된 영수증 분석**
-
-- 영수증 이미지 업로드 시 GPT-4o-mini Vision API가 상호명, 금액, 날짜, 카테고리, 상품명을 자동 추출
-- LangChain과 Pydantic을 활용한 구조화된 데이터 추출 및 검증
-- 추출된 정보가 자동으로 입력되어 수기 입력 없이 경비 등록 가능
-- 임시저장(DRAFT) 기능으로 언제든지 수정 및 제출 가능
-![영수증OCR_수정](https://github.com/user-attachments/assets/5c2b70ca-7ea2-4b99-9f75-15f7394354ef)
-
-### 3️⃣ AI 지출 결재 추천 시스템
-
-**GPT-4o-mini 기반 지능형 결재 의사결정 지원**
-
-- 지출 내역과 영수증 정보를 종합 분석하여 정보 일치성, 비정상 패턴, 규정 준수 여부 검증
-- 3단계 추천: **APPROVE(승인)**, **REJECT_CLEAR(완전 반려)**, **REJECT_SUSPECTED(반려 의심)**
-- 신뢰도 점수, 상세 분석 근거, 위험/긍정 요소를 포함한 리포트 제공
-- 회사 규정 문서 기반 컨텍스트 인식으로 정책 준수 자동 검증
-![AI 결재 추천_수정_최종](https://github.com/user-attachments/assets/5146fc79-24cc-4d68-b5e3-f04945ace5d6)
-
-### 4️⃣ 실시간 채팅 및 AI 검색 (RPA)
-
-- WebSocket(STOMP) 기반의 개인/부서별 실시간 채팅을 지원합니다.
-- **AI 전역 검색**: 채팅방의 대화 맥락을 AI가 파악하여, 과거 대화 내용이나 공유된 파일을 자연어 질문으로 찾을 수 있습니다.
-- ![채팅](https://github.com/user-attachments/assets/deab6992-d87d-4ee8-a39d-30393224c054)
-![AI 전역 검색](https://github.com/user-attachments/assets/1ebac6bc-f414-4ed2-832b-f156f2cd2898)
-
-
-### 5️⃣ 기타 편의 기능
-
-- **얼굴 인식 로그인**: face-api.js를 활용한 생체 인식 로그인
-- **대시보드**: 개인별 업무 현황, 결재 대기 건수 등을 한눈에 파악하는 반응형 대시보드
-  ![KakaoTalk_20260114_171826240](https://github.com/user-attachments/assets/cc38aa93-ac8f-43fc-baec-feee94fc2362)
-
-
-### 6️⃣ AI 근태 관리 및 실적 분석 챗봇
-- **출결 데이터 엑셀 생성**: AI 챗봇에게 "개발1팀 홍예준 25년 9월달 출결 엑셀로 뽑아줘" 라고하면 DB를 조회해 엑셀데이터를 생성합니다.
-  ![Animation](https://github.com/user-attachments/assets/de27d250-3bd6-43ba-9507-e5d8d5f09af7)
-
-- **성과 비교 분석**: AI 챗봇에게 "개발1팀 개발2팀 25년 실적비교해줘" 라고하면 25년 실적을 AI 가 비교하고 그래프를 그려줍니다.
-![Animation1](https://github.com/user-attachments/assets/265c4ada-0a21-4465-9e9f-0272a5c24b77)
-
+## 8. ✨ 핵심 구현 기능 (Key Features)
 
 ---
 
+### 1️⃣ AI 회의록 분석 및 Todo 자동 생성
+> **회의록에서 실무 액션 아이템까지의 자동화 워크플로우**
+
+- **자연어 처리 기반 회의록 파싱**: 텍스트 파일 업로드 시 AI가 내용을 분석하여 액션 아이템, 담당자, 마감일, 우선순위를 자동으로 추출합니다.
+- **구조화된 Todo 엔티티 변환**: Pydantic 모델로 데이터 무결성을 검증하고, Spring Boot 엔티티로 변환하여 DB에 저장합니다.
+- **캘린더 통합 시스템**: 생성된 과제는 캘린더에 자동 등록되며, 마감일 알림 및 우선순위 관리 기능과 실시간 연동됩니다.
+
+![회의록분석](https://github.com/user-attachments/assets/46dbfdfb-570e-49fa-a0da-fd7615be1220)
+
+---
+
+### 2️⃣ 스마트 지출 결재 시스템
+> **Vision API와 AI 판단 엔진을 결합한 경비 관리 자동화**
+
+#### 📍 영수증 OCR 및 경비 처리
+- **Vision API 이미지 분석**: 영수증을 base64로 인코딩하여 GPT-4o-mini에 전송, 텍스트를 정밀 추출합니다.
+- **구조화된 데이터 추출**: LangChain 기반 `PydanticOutputParser`를 통해 가맹점명, 금액, 날짜, 카테고리 등을 JSON으로 규격화합니다.
+- **통합 워크플로우**: Spring Boot와 Python AI 서버 간 협업을 통해 OCR 결과를 `ReceiptAiExtraction` 엔티티로 자동 연동합니다.
+![영수증OCR_수정](https://github.com/user-attachments/assets/f0fbd51c-df5a-4752-afac-bd964208d651)
+
+#### 📍 AI 지출 결재 추천 시스템
+- **종합 분석 판단 엔진**: 내역 정보와 OCR 결과를 대조하여 정보 일치성 및 비정상 지출 패턴을 평가합니다.
+- **3단계 추천 결과 제공**: 신뢰도 점수에 따라 `APPROVE`, `REJECT_CLEAR`, `REJECT_SUSPECTED` 결과를 상세 사유와 함께 출력합니다.
+- **규정 기반 검증 파이프라인**: 사내 지출 규정을 Context로 활용해 업무 관련성 및 위험 요소를 자동으로 감지합니다.
+![AI 결재 추천_수정_최종](https://github.com/user-attachments/assets/09f8b180-7672-405a-a6e1-a151a3bcec69)
+
+> [!NOTE]
+> 본 기능의 상세 아키텍처와 코드는 [지출 결재 시스템 상세 문서](./readme/Receipt_OCR_AI_Approval_System.md)에서 확인하실 수 있습니다.
+
+---
+
+### 3️⃣ 실시간 채팅 및 지능형 RPA 검색
+
+#### 📍 실시간 메시징 시스템
+- **WebSocket(STOMP) 프로토콜**: Spring WebSocket과 SockJS를 활용하여 개인 및 부서별 그룹 채팅을 지원하는 양방향 실시간 통신을 구현했습니다.
+![채팅](https://github.com/user-attachments/assets/deab6992-d87d-4ee8-a39d-30393224c054)
+
+#### 📍 AI 전역 검색 (Semantic Search)
+- **의미론적 검색 엔진**: 대화 맥락을 벡터화하여 저장하며, 자연어 질문에 대해 단순 키워드가 아닌 '의미' 기반 매칭 결과를 제공합니다.
+- **컨텍스트 인식 파일 검색**: 채팅 내 공유된 PDF, 이미지 등의 메타데이터를 분석하여 파일 내용에 기반한 지능형 검색을 지원합니다.
+![AI 전역 검색](https://github.com/user-attachments/assets/1ebac6bc-f414-4ed2-832b-f156f2cd2898)
+
+---
+
+### 4️⃣ AI 근태 관리 및 실적 분석 챗봇
+> **자연어 쿼리를 통한 데이터 조회 및 시각화 자동화**
+
+- **의도 분석 및 엔티티 추출**: Ollama 기반 로컬 LLM을 통해 자연어 질문에서 부서, 직원, 기간 등 핵심 파라미터를 자동 추출합니다.
+- **동적 데이터 변환**: 추출된 파라미터로 API를 호출하고, Pandas를 활용해 구조화된 엑셀 파일을 자동 생성합니다.
+![Animation](https://github.com/user-attachments/assets/de27d250-3bd6-43ba-9507-e5d8d5f09af7)
+
+- **시각화 파이프라인**: 부서별 실적 데이터를 조회하여 Matplotlib 차트를 생성하고, LLM이 데이터 기반 인사이트 보고서를 자동 작성합니다.
+![Animation1](https://github.com/user-attachments/assets/265c4ada-0a21-4465-9e9f-0272a5c24b77)
+
+---
+
+### 5️⃣ 기타 사용자 편의 기능
+
+- **얼굴 인식 인증**: `face-api.js`를 활용하여 브라우저 내 실시간 얼굴 검출을 수행하며, 특징 벡터만 처리하여 프라이버시 보안을 강화했습니다.
+- **실시간 데이터 대시보드**: Redux Toolkit을 통해 개인별 업무 현황 및 결재 대기 건수 등 주요 지표를 실시간 시각화합니다.
+![대시보드](https://github.com/user-attachments/assets/cc38aa93-ac8f-43fc-baec-feee94fc2362)
+
+---
 
