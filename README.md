@@ -113,7 +113,7 @@
 - LangChain과 Pydantic을 활용한 구조화된 데이터 추출 및 검증
 - 추출된 정보가 자동으로 입력되어 수기 입력 없이 경비 등록 가능
 - 임시저장(DRAFT) 기능으로 언제든지 수정 및 제출 가능
-![영수증OCR](https://github.com/user-attachments/assets/1220117d-acf8-481b-9fa1-84e96b3837dd)
+![영수증OCR_수정](https://github.com/user-attachments/assets/5c2b70ca-7ea2-4b99-9f75-15f7394354ef)
 
 ### 3️⃣ AI 지출 결재 추천 시스템
 
@@ -123,7 +123,7 @@
 - 3단계 추천: **APPROVE(승인)**, **REJECT_CLEAR(완전 반려)**, **REJECT_SUSPECTED(반려 의심)**
 - 신뢰도 점수, 상세 분석 근거, 위험/긍정 요소를 포함한 리포트 제공
 - 회사 규정 문서 기반 컨텍스트 인식으로 정책 준수 자동 검증
-![AI결재추천](https://github.com/user-attachments/assets/92f81df6-f2ed-48bc-9980-c7e0b6f406fc)
+![AI 결재 추천_수정_최종](https://github.com/user-attachments/assets/5146fc79-24cc-4d68-b5e3-f04945ace5d6)
 
 ### 4️⃣ 실시간 채팅 및 AI 검색 (RPA)
 
