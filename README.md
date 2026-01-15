@@ -84,8 +84,8 @@
 
 
 ## 6. 🏛️ 시스템 아키텍처 (System Architecture)
-
 > **AI 기반 업무 처리 및 실시간 통신 흐름**
+<img width="1622" height="1606" alt="KakaoTalk_20260115_164419086" src="https://github.com/user-attachments/assets/458bf00a-98a8-4869-8cf9-f91ef1f98207" />
 
 
 
