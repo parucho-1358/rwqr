@@ -18,7 +18,3 @@
 
 ## 2. 핵심 코드 (Core Code)
 
-<img width="1920" height="1080" alt="57167400" src="https://github.com/user-attachments/assets/dafcedfe-b8ed-4da8-9659-84b10d587634" />
-
-<img width="1920" height="1080" alt="57167404" src="https://github.com/user-attachments/assets/9cb2b18f-8076-4f84-adf8-4930b9fc5c94" />
-
