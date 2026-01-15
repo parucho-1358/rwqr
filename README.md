@@ -89,11 +89,9 @@
 
 
 
-## 7. 📺 기능 소개 및 시연
+## 7. 📺 반응형 페이지 구성
+![Animation4](https://github.com/user-attachments/assets/a5cbd648-2c70-4e72-8998-1c02ecd6f622)
 
-### 📂 팀 프로젝트 포트폴리오 (PDF)
-
-> 프로젝트의 상세 기획 및 구현 과정이 담긴 PDF입니다.
 
 
 
