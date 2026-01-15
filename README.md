@@ -1,4 +1,4 @@
-![KakaoTalk_20260115_160034789](https://github.com/user-attachments/assets/997321be-01d4-4316-92ba-3019e325fd67)# 🏢 SmartSpend (AI 기반 RPA 사내 협업 시스템)
+# 🏢 SmartSpend (AI 기반 RPA 사내 협업 시스템)
 
 > **단순 정보 제공이 아닌, AI가 실제 업무를 자동 처리하는 차세대 협업 플랫폼**
 
