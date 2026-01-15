@@ -109,6 +109,9 @@
 
 ![회의록분석](https://github.com/user-attachments/assets/46dbfdfb-570e-49fa-a0da-fd7615be1220)
 
+> [!NOTE]
+> 본 기능의 상세 아키텍처와 코드는 [회의록 분석 시스템 상세 문서](./readme/Meeting_Record_AI_Analysis.md)에서 확인하실 수 있습니다.
+
 ---
 
 ### 2️⃣ 스마트 지출 결재 시스템
@@ -143,6 +146,8 @@
 - **컨텍스트 인식 파일 검색**: 채팅 내 공유된 PDF, 이미지 등의 메타데이터를 분석하여 파일 내용에 기반한 지능형 검색을 지원합니다.
 ![AI 전역 검색]![KakaoTalk_20260115_160034789](https://github.com/user-attachments/assets/90b52006-ffa1-4dd9-82f4-35f83fdd3e77)
 
+> [!NOTE]
+> 본 기능의 상세 아키텍처와 코드는 [실시간 채팅 및 RPA 검색 시스템 상세 문서](./readme/Realtime_Chat_Semantic_Search.md)에서 확인하실 수 있습니다.
 
 ---
 
@@ -156,6 +161,9 @@
 - **시각화 파이프라인**: 부서별 실적 데이터를 조회하여 Matplotlib 차트를 생성하고, LLM이 데이터 기반 인사이트 보고서를 자동 작성합니다.
 ![Animation1](https://github.com/user-attachments/assets/265c4ada-0a21-4465-9e9f-0272a5c24b77)
 
+> [!NOTE]
+> 본 기능의 상세 아키텍처와 코드는 [AI 근태 및 실적 분석 시스템 상세 문서](./readme/Attendance_Performance_AI_Bot.md)에서 확인하실 수 있습니다.
+
 ---
 
 ### 5️⃣ 기타 사용자 편의 기능
@@ -163,6 +171,9 @@
 - **얼굴 인식 인증**: `face-api.js`를 활용하여 브라우저 내 실시간 얼굴 검출을 수행하며, 특징 벡터만 처리하여 프라이버시 보안을 강화했습니다.
 - **실시간 데이터 대시보드**: Redux Toolkit을 통해 개인별 업무 현황 및 결재 대기 건수 등 주요 지표를 실시간 시각화합니다.
 ![대시보드](https://github.com/user-attachments/assets/cc38aa93-ac8f-43fc-baec-feee94fc2362)
+
+> [!NOTE]
+> 본 기능의 상세 아키텍처와 코드는 [사용자 편의 기능 상세 문서](./readme/Facial_Auth_Realtime_Dashboard.md)에서 확인하실 수 있습니다.
 
 ---
 
