@@ -7,6 +7,7 @@
 ## 1. 서비스 플로우 (Service Flow)
 
 > **Flowchart**
+<img width="3952" height="1568" alt="제목 없음 (12)" src="https://github.com/user-attachments/assets/5fa8642a-0f7b-4327-9010-43a8634bee24" />
 
 
 ---
