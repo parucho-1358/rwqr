@@ -1,4 +1,4 @@
-# 🏢 SmartSpend (AI 기반 RPA 사내 협업 시스템)
+![KakaoTalk_20260115_160034789](https://github.com/user-attachments/assets/997321be-01d4-4316-92ba-3019e325fd67)# 🏢 SmartSpend (AI 기반 RPA 사내 협업 시스템)
 
 > **단순 정보 제공이 아닌, AI가 실제 업무를 자동 처리하는 차세대 협업 플랫폼**
 
@@ -55,7 +55,7 @@
 - **Library**: Apache POI, OpenPDF, Thumbnailator, ModelMapper, Jackson Databind, Gson, OkHttp
 
 ### **Front-End** &nbsp; <img src="https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/-20232A?style=flat-square&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/-339933?style=flat-square&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/-764ABC?style=flat-square&logo=redux&logoColor=white">
-- **Language**: HTML5, CSS3, JavaScript
+- **Language**: CSS3, JavaScript
 - **Framework/Library**: React, Redux Toolkit, Node.js
 - **Network**: Axios, WebSocket (STOMP/SockJS)
 - **UI/UX**: Chart.js, React Calendar, face-api.js
@@ -135,12 +135,14 @@
 
 #### 📍 실시간 메시징 시스템
 - **WebSocket(STOMP) 프로토콜**: Spring WebSocket과 SockJS를 활용하여 개인 및 부서별 그룹 채팅을 지원하는 양방향 실시간 통신을 구현했습니다.
-![채팅](https://github.com/user-attachments/assets/deab6992-d87d-4ee8-a39d-30393224c054)
+![KakaoTalk_20260115_160034789_01](https://github.com/user-attachments/assets/f60b367a-6cb9-409b-8936-732469b4713f)
+
 
 #### 📍 AI 전역 검색 (Semantic Search)
 - **의미론적 검색 엔진**: 대화 맥락을 벡터화하여 저장하며, 자연어 질문에 대해 단순 키워드가 아닌 '의미' 기반 매칭 결과를 제공합니다.
 - **컨텍스트 인식 파일 검색**: 채팅 내 공유된 PDF, 이미지 등의 메타데이터를 분석하여 파일 내용에 기반한 지능형 검색을 지원합니다.
-![AI 전역 검색](https://github.com/user-attachments/assets/1ebac6bc-f414-4ed2-832b-f156f2cd2898)
+![AI 전역 검색]![KakaoTalk_20260115_160034789](https://github.com/user-attachments/assets/90b52006-ffa1-4dd9-82f4-35f83fdd3e77)
+
 
 ---
 
