@@ -7,11 +7,18 @@
 ## 1. 서비스 플로우 (Service Flow)
 
 > **Flowchart**
+### 실시간 채팅 시스템
 <img width="3738" height="2042" alt="image" src="https://github.com/user-attachments/assets/7a217cd0-6ad5-4abb-9dfe-aff184d34d4e" />
+
+### AI 전역 검색 기능
 <img width="3748" height="1606" alt="image" src="https://github.com/user-attachments/assets/528f842f-eb6e-49e7-9866-50cf6570d252" />
 
 
 ---
 
 ## 2. 핵심 코드 (Core Code)
+
+<img width="1920" height="1080" alt="57167400" src="https://github.com/user-attachments/assets/dafcedfe-b8ed-4da8-9659-84b10d587634" />
+
+<img width="1920" height="1080" alt="57167404" src="https://github.com/user-attachments/assets/9cb2b18f-8076-4f84-adf8-4930b9fc5c94" />
 
