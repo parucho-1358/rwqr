@@ -35,13 +35,14 @@
     * 전체 DB 설계 및 프로젝트 일정 관리
 
 * **성건우**
-    * Spring Security + JWT 기반 로그인/인증 구현
-    * 사원 관리 페이지 및 마이페이지, 근태(출결) 관리 기능
+    * Spring Security + JWT 기반 로그인/인증 구현 (Redux 로그인 상태 관리)
+    * 사원 관리 페이지(CRUD) 및 마이페이지(프로필 이미지 업로드), 근태(출결) 관리 기능
     * 출결, 실적 관련 AI 챗봇 구현, 회의록 및 진행 일지 작성
 
 * **전유진**
     * OpenAI GPT-4o-mini Vision API를 사용한 영수증 OCR 기능 
-    * GPT-4o-mini기반 AI 지출 승인 추천 시스템, 지출 내역 관리 시스템 (CRUD, 페이징, 다중 조건 필터링, Redux Toolkit 상태 관리)
+    * GPT-4o-mini기반 AI 지출 승인 추천 시스템
+    * 지출 내역 관리 시스템 (CRUD, 페이징, 다중 조건 필터링, Redux Toolkit 상태 관리)
     * 유스케이스 다이어그램, ERD 다이어그램 제작 및 통합
 
       
